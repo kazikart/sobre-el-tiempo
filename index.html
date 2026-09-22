@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sobre el tiempo — bitácora</title>
+  <meta name="description" content="Proyecto sobre el tiempo. Avances, notas y piezas que van saliendo." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="logo" href="#inicio">sobre el <em>tiempo</em></a>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#bitacora">Bitácora</a>
+      <a href="#sobre">El proyecto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <p class="kicker">Proyecto en curso</p>
+      <h1>Una investigación<br /><em>sobre el tiempo</em></h1>
+      <p class="lede">
+        Este sitio recoge los avances del proyecto: notas, prototipos,
+        ideas que se quedan y las que se descartan. Empieza como bitácora
+        y irá creciendo a medida que el trabajo tome forma.
+      </p>
+      <div class="hero-meta">
+        <div class="clock" id="clock" aria-live="polite">
+          <span class="clock-time">--:--:--</span>
+          <span class="clock-date">—</span>
+        </div>
+        <a class="btn" href="#bitacora">Ver avances</a>
+      </div>
+    </section>
+
+    <section id="sobre" class="about">
+      <h2>Qué es esto</h2>
+      <div class="about-grid">
+        <p>
+          El tiempo es la materia del proyecto: cómo lo medimos, cómo lo
+          sentimos, cómo se escapa cuando no lo miramos. Aquí no hay
+          conclusiones cerradas. Hay entregas sucesivas.
+        </p>
+        <p>
+          Por ahora la web es un cuaderno público. Cada entrada marca
+          un paso: una decisión de diseño, un experimento, una duda.
+          Más adelante irán apareciendo las piezas del propio proyecto.
+        </p>
+      </div>
+    </section>
+
+    <section id="bitacora" class="log">
+      <div class="log-head">
+        <h2>Bitácora</h2>
+        <p>Lo más reciente arriba.</p>
+      </div>
+
+      <article class="entry" data-status="ahora">
+        <time datetime="2026-09-22">22 septiembre 2026</time>
+        <h3>Se abre el cuaderno</h3>
+        <p>
+          Primera entrada. Hoy nace esta página para ir publicando los
+          avances del proyecto sobre el tiempo. Todavía no hay prototipo
+          visible: hay intención, estructura y un reloj en la portada
+          que no para.
+        </p>
+        <p>
+          Siguiente paso: recuperar el material del trabajo anterior
+          (notas, capturas, código) y volcarlo aquí como entradas
+          datadas, no como un dump.
+        </p>
+        <ul class="tags">
+          <li>web</li>
+          <li>arranque</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>sobre el tiempo · bitácora pública</p>
+    <p class="fine">Actualizado el 22 de septiembre de 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
