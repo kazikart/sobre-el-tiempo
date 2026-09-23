@@ -17,6 +17,7 @@
     <a class="logo" href="#inicio">sobre el <em>tiempo</em></a>
     <nav>
       <a href="#inicio">Inicio</a>
+      <a href="#curiosidades">Curiosidades</a>
       <a href="#bitacora">Bitácora</a>
       <a href="#sobre">El proyecto</a>
     </nav>
@@ -36,7 +37,7 @@
           <span class="clock-time">--:--:--</span>
           <span class="clock-date">—</span>
         </div>
-        <a class="btn" href="#bitacora">Ver avances</a>
+        <a class="btn" href="#curiosidades">Curiosidades</a>
       </div>
     </section>
 
@@ -56,13 +57,45 @@
       </div>
     </section>
 
+    <section id="curiosidades" class="curios">
+      <div class="log-head">
+        <h2>Curiosidades</h2>
+        <p>Piezas sueltas sobre el tiempo.</p>
+      </div>
+
+      <article class="curiosity">
+        <p class="curiosity-num">01</p>
+        <h3>Mi cabeza es más vieja que mis pies</h3>
+        <p>También tengo más canas. Una cosa no explica la otra. O sí, un poco.</p>
+        <p>Mientras lees esto, el tiempo no corre igual en la sien y en el talón. La Tierra curva el espacio-tiempo. Cuanto más cerca del centro, más despacio avanza el reloj. Los pies viven un poco más adentro de esa curva; la cabeza, un metro más afuera. Allí arriba el tiempo pasa un poco más rápido. La cabeza envejece antes.</p>
+        <p>En ochenta años de estar de pie, la diferencia es de unos cientos de nanosegundos: menos que un parpadeo partido en un millón. Einstein lo predijo. En 2010, en Boulder, dos relojes atómicos separados por un palmo lo midieron.</p>
+        <p>El cuerpo tiene un desfase vertical, minúsculo y constante. Los pies van siempre un instante por detrás.</p>
+        <p>Hasta aquí el aforismo. Yo mido casi dos metros. De ahí la hipérbole.</p>
+      </article>
+    </section>
+
     <section id="bitacora" class="log">
       <div class="log-head">
         <h2>Bitácora</h2>
         <p>Lo más reciente arriba.</p>
       </div>
 
-      <article class="entry" data-status="ahora">
+      <article class="entry">
+        <time datetime="2026-09-23">23 septiembre 2026</time>
+        <h3>Primera curiosidad</h3>
+        <p>
+          Se abre el apartado de curiosidades con un texto sacado del
+          pequeño ensayo sobre el tiempo: la cabeza es más vieja que
+          los pies. Antes de publicarlo se reescribió para que no
+          quedara en aforismo suelto.
+        </p>
+        <ul class="tags">
+          <li>curiosidades</li>
+          <li>relatividad</li>
+        </ul>
+      </article>
+
+      <article class="entry">
         <time datetime="2026-09-22">22 septiembre 2026</time>
         <h3>Se abre el cuaderno</h3>
         <p>
@@ -70,11 +103,6 @@
           avances del proyecto sobre el tiempo. Todavía no hay prototipo
           visible: hay intención, estructura y un reloj en la portada
           que no para.
-        </p>
-        <p>
-          Siguiente paso: recuperar el material del trabajo anterior
-          (notas, capturas, código) y volcarlo aquí como entradas
-          datadas, no como un dump.
         </p>
         <ul class="tags">
           <li>web</li>
@@ -86,7 +114,7 @@
 
   <footer>
     <p>Arturo San Román · sobre el tiempo · bitácora pública</p>
-    <p class="fine">Actualizado el 22 de septiembre de 2026</p>
+    <p class="fine">Actualizado el 23 de septiembre de 2026</p>
   </footer>
 
   <script src="script.js"></script>
